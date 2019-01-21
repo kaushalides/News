@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Local News"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tech News"));
         tabLayout.addTab(tabLayout.newTab().setText("Gossip"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tech News"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
